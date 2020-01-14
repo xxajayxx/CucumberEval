@@ -42,7 +42,7 @@ static WebDriver driver;
 		 
 	 }
 	
-	 Assert.assertTrue(driver.findElement(By.xpath("")).getText().contains("Hi"));
+	 Assert.assertTrue(driver.findElement(By.xpath(".//ul[@class='nav navbar-nav']")).getText().contains("Hi"));
 	
 		
 		
